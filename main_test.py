@@ -16,13 +16,6 @@ exit_ma=[5,9,20,50,100]
 temp_var=0 
 temp_var2=0 
 choice=input("input choice ")
-if choice == '1':
-    for i in fast:
-        for j in slow:
-            for k in exit_ma:
-                if i!=j and i<j:
-                    obj.ma_pro3(close_data,i,j,k)
-        
 
 elif choice == '2':
     for i in fast:
@@ -31,15 +24,10 @@ elif choice == '2':
                 obj.mul_final(close_data,i,j)
     
 
-
 elif choice =='3':
     obj.mul_sma_final(close_data,tmst)
 
-
-# elif choice == '4':
-#     obj.p0(close_data,op_data,high_data,low_data)
     
-
 elif choice == '5':
     temp_var = int(input("enter fast sma "))
     temp_var2= int(input("enter slow sma "))
