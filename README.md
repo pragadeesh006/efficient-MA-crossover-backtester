@@ -8,6 +8,6 @@ function description:
 1) mul_final
 lets you to find out profit,max drawdown,no of trades for all combinations of MA crossovers.
 
-2)mul_sma_final
+2) mul_sma_final
 lets you to test out user defined MA combination,returns all the specifics of trades taken by the model(opening and closing price, trade timings ,profit)
 
